@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registro de Usuario</title>
+<link rel="stylesheet" href="style.css">
+<body background="./img/fondo.jpg"></body>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h2>Regístrate en Nuestra Plataforma</h2>
+    <p>Crea una cuenta para comenzar</p>
+  </div>
+  <h3>Experiencia laboral</h3>
+   <form>
+    <div class="form-group">
+        <label for="empresa">Nombre Empresa</label>
+        <input type="text" id="primaria" name="primaria">
+      </div>
+      <div class="form-group">
+        <label for="direccion">Dirección</label>
+        <input type="text" id="direccon" name="direccion">
+      </div>
+      <div class="form-group">
+        <label for="telefono">Teléfono</label>
+        <input type="text" id="telefono" name="telefono">
+      </div>
+      <div class="form-group">
+        <label for="cargo">Cargo</label>
+        <input type="text" id="cargo" name="cargo">
+      </div>
+      <form action="countries">
+        <label for="countries">Pais</label>
+        <select name="countries" id="coun">
+          <option value="Vacio"></option>
+          <option value="Col">Colombia</option>
+          <option value="Other">Otro</option>
+        </select>
+        </form> 
+        <br>
+        <form action="departments">
+            <label for="deptartments">Estado/Departamento/Provincia</label>
+            <select name="departments" id="dept">
+                <option value="Vacio"></option>
+                <option value = "Amazonas">Amazonas</option>
+                <option value = "Antioquia">Antioquia</option>
+                <option value = "Arauca">Arauca</option>
+                <option value = "Atlántico">Atlántico</option>
+                <option value = "Bolívar">Bolívar</option>
+                <option value = "Boyacá">Boyacá</option>
+		        <option value = "Caldas">Caldas</option>
+                <option value = "Caquetá">Caquetá</option>
+                <option value = "Casanare">Casanare</option>
+                <option value = "Cauca">Cauca</option>
+                <option value = "Cesar">Cesar</option>
+                <option value = "Chocó">Chocó</option>		            
+                <option value = "Córdoba">Córdoba</option>
+                <option value = "Cundinamarca">Cundinamarca</option>
+                <option value = "Guainía">Guainía</option>
+		        <option value = "Guaviare">Guaviare</option>
+                <option value = "Huila">Huila</option>
+                <option value = "La Guajira">La Guajira</option>
+                <option value = "Magdalena">Magdalena</option>
+		        <option value = "Meta">Meta</option>
+                <option value = "Nariño">Nariño</option>
+                <option value = "Norte de Santander">Norte de Santander</option>
+                <option value = "Putumayo">Putumayo</option>                
+                <option value = "Quindío">Quindío</option>  
+		        <option value = "Risaralda">Risaralda</option>
+                <option value = "San Andrés y Providencia">San Andrés y Providencia</option>
+                <option value = "Santander">Santander</option>
+                <option value = "Sucre">Sucre</option>
+                <option value = "Tolima">Tolima</option>
+                <option value = "Valle del Cauca">Valle del Cauca</option>
+                <option value = "Vaupés">Vaupés</option>
+                <option value = "Vichada">Vichada</option>
+                <option value = "Vichada">Otro</option>
+            </select>
+            </form> 
+        <br>
+        <form action="cities">
+            <label for="cities">Ciudad/Municipio</label>
+            <select name="cities" id="ciudad">
+                <option value="Vacio"></option>
+                <option value="Arauca">Arauca</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Barranquilla">Barranquilla</option>
+                <option value="Bogotá">Bogotá</option>
+                <option value="Bucaramanga">Bucaramanga</option>
+                <option value="Cali">Cali</option>
+                <option value="Cartagena">Cartagena</option>
+                <option value="Cúcuta">Cúcuta</option>
+                <option value="Florencia">Florencia</option>
+                <option value="Ibagué">Ibagué</option>
+                <option value="Leticia">Leticia</option>
+                <option value="Manizales">Manizales</option>
+                <option value="Medellín">Medellín</option>
+                <option value="Mitú">Mitú</option>
+                <option value="Mocoa">Mocoa</option>
+                <option value="Montería">Montería</option>
+                <option value="Neiva">Neiva</option>
+                <option value="Pasto">Pasto</option>
+                <option value="Pereira">Pereira</option>
+                <option value="Popayán">Popayán</option>
+                <option value="Puerto Carreño">Puerto Carreño</option>
+                <option value="Puerto Inírida">Puerto Inírida</option>
+                <option value="Quibdó">Quibdó</option>
+                <option value="Riohacha">Riohacha</option>
+                <option value="San Andrés">San Andrés</option>
+                <option value="San José del Guaviare">San José del Guaviare</option>
+                <option value="Santa Marta">Santa Marta</option>
+                <option value="Sincelejo">Sincelejo</option>
+                <option value="Tunja">Tunja</option>
+                <option value="Valledupar">Valledupar</option>
+                <option value="Villavicencio">Villavicencio</option>
+                <option value="Yopal">Yopal</option>
+                <option value="Otro">Otro</option>
+            </select>
+        </form>      
+        <div class="form-group">
+            <label for="ingreso">Fecha de ingreso</label>
+            <input type="month" id="date" name="ingreso">
+          </div>
+        <div class="form-group">
+            <label for="finalizacion">Fecha de finalización</label>
+            <input type="month" id="date" name="finalizacion">
+          </div>
+          <div class="form-group">
+            <label for="experience">Funciones:</label>
+            <textarea id="experience" name="experience" rows="4" required></textarea>
+          </div>
+          <p>     
+            <input type="radio" name="empleoactual" value="empleoactual">Actualmente trabajo<br>           
+          </p>
+    </form>
+        <br>
+
+  <a href="./register6.html"><button type="submit">Anterior</button></a>  
+  <a href="./register8.html"><button type="submit">Siguiente</button></a>
+  <p><a href="./index.html">Inicio</a></p>
+  <h6>©2023 2J&YL Team. Derechos reservados</a></h6>
+</div>
+</body>
+</html>

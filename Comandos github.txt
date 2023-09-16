@@ -1,0 +1,19 @@
+git init
+git status
+git add .
+git commit -m "Se agrega el proyecto"
+git config --global user.email luisbuitrago@soy.sena.edu.co
+git config --global user.name luchoman21
+git branch -M main
+git remote add origin https://github.com/luchoman21/Construempleo.git
+git push -u origin main
+
+
+actualizar:
+
+git status
+git push -u origin main
+git log
+
+https://www.youtube.com/watch?v=eQMcIGVc8N0
+
